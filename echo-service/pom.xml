@@ -38,7 +38,7 @@
         </dependency>
         <dependency>
             <groupId>com.echo</groupId>
-            <artifactId>echo-domain/ec</artifactId>
+            <artifactId>echo-domain</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
