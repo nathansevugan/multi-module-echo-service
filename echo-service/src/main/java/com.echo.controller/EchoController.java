@@ -13,6 +13,6 @@ public class EchoController {
     @PostMapping("/echo")
     @ResponseBody
     public EchoMessage echo(@RequestParam(value="message", defaultValue="hello world") String message) {
-        return new EchoMessage("Response from multi-module server: " + message + " " + System.getProperty("MONGO_URL"));
+        return new EchoMessage("Response from multi-module server: " + message + "  " + System.getProperty("MONGO_URL"));
     }
 }
